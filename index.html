@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/nullstyle.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <form class="form" action="https://ampli-html-forms.herokuapp.com/data" method="get">
+         <fieldset class="fieldset">
+            <header class="header">
+               <legend class="header__title">Registration(get)</legend>
+            </header>
+            <main class="main">
+               <section class="main__main-inputs">
+                  <div class="main__input-container">
+                     <input name="name" class="main__input" placeholder="Enter name" type="text" />
+                     <span>Name</span>
+                  </div>
+                  <div class="main__input-container">
+                     <input name="email" type="email" class="main__input" placeholder="Enter email" type="text">
+                     <span>Email</span>
+                  </div>
+                  <div class="main__input-container">
+                     <input name="password" type="password" class="main__input" placeholder="Enter password" type="text">
+                     <span>Password</span>
+                  </div>
+                  <div class="main__input-container">
+                     <input name="confirm-password" type="password" class="main__input" placeholder="Confirm your password" type="text">
+                     <span>Confirm password</span>
+                  </div>
+               </section>
+               <section class="main__radio-area">
+                  <label class="main__radio-label">
+                     <input checked class="main__radio" name="gender" type="radio">
+                     <p>Male</p>
+                     <span class="main__custom-radio"></span>
+                  </label>
+                  <label class="main__radio-label">
+                     <input class="main__radio" name="gender" type="radio">
+                     <p>Female</p>
+                     <span class="main__custom-radio"></span>
+                  </label>
+               </section>
+               <section class="main__bio-input">
+                  <div class="main__textarea-container">
+                     <textarea name="biography" placeholder="Enter your biography" class="main__textarea"></textarea>
+                     <span>Your biography</span>
+                  </div>
+               </section>
+               <section class="main__checkbox-area">
+                  <label class="main__checkbox-label">
+                     <input name="terms-and-conditions" checked class="main__checkbox" type="checkbox">
+                     <p>I agree with Terms and Conditions</p> 
+                     <span class="main__custom-checkbox"></span>
+                  </label>
+                  <label class="main__checkbox-label">
+                     <input name="newsletter" class="main__checkbox" type="checkbox">
+                     <p>Subscribe to our newsletter</p> 
+                     <span class="main__custom-checkbox"></span>
+                  </label>
+               </section>
+            </main>
+            <footer class="footer">
+               <button class="footer__btn" type="submit">Submit</button>
+               <div class="footer__reset-btn-container">
+                  <img src="./assets/img/icons/reset.svg" alt="reset image">
+                  <button class="footer__btn footer__btn_dark" type="reset">Reset</button>
+               </div>
+            </footer>
+         </fieldset>
+      </form>
+      <form class="form" action="https://ampli-html-forms.herokuapp.com/data" method="post">
+         <fieldset class="fieldset">
+            <header class="header">
+               <legend class="header__title">Registration(post)</legend>
+            </header>
+            <main class="main">
+               <section class="main__main-inputs">
+                  <div class="main__input-container">
+                     <input name="name" class="main__input" placeholder="Enter name" type="text" />
+                     <span>Name</span>
+                  </div>
+                  <div class="main__input-container">
+                     <input name="email" type="email" class="main__input" placeholder="Enter email" type="text">
+                     <span>Email</span>
+                  </div>
+                  <div class="main__input-container">
+                     <input name="password" type="password" class="main__input" placeholder="Enter password" type="text">
+                     <span>Password</span>
+                  </div>
+                  <div class="main__input-container">
+                     <input name="confirm-password" type="password" class="main__input" placeholder="Confirm your password" type="text">
+                     <span>Confirm password</span>
+                  </div>
+               </section>
+               <section class="main__radio-area">
+                  <label class="main__radio-label">
+                     <input checked class="main__radio" name="gender" type="radio">
+                     <p>Male</p>
+                     <span class="main__custom-radio"></span>
+                  </label>
+                  <label class="main__radio-label">
+                     <input class="main__radio" name="gender" type="radio">
+                     <p>Female</p>
+                     <span class="main__custom-radio"></span>
+                  </label>
+               </section>
+               <section class="main__bio-input">
+                  <div class="main__textarea-container">
+                     <textarea name="biography" placeholder="Enter your biography" class="main__textarea"></textarea>
+                     <span>Your biography</span>
+                  </div>
+               </section>
+               <section class="main__checkbox-area">
+                  <label class="main__checkbox-label">
+                     <input name="terms-and-conditions" checked class="main__checkbox" type="checkbox">
+                     <p>I agree with Terms and Conditions</p> 
+                     <span class="main__custom-checkbox"></span>
+                  </label>
+                  <label class="main__checkbox-label">
+                     <input name="newsletter" class="main__checkbox" type="checkbox">
+                     <p>Subscribe to our newsletter</p> 
+                     <span class="main__custom-checkbox"></span>
+                  </label>
+               </section>
+            </main>
+            <footer class="footer">
+               <button class="footer__btn" type="submit">Submit</button>
+               <div class="footer__reset-btn-container">
+                  <img src="./assets/img/icons/reset.svg" alt="reset image">
+                  <button class="footer__btn footer__btn_dark" type="reset">Reset</button>
+               </div>
+            </footer>
+         </fieldset>
+      </form>
+   </div>
+</body>
+
+</html>
